@@ -14,7 +14,7 @@ Maquettage d'un SI avec les trois VMs suivantes :
 
 * **Chaque VM disposera de deux interfaces réseau**
     * Une interface en NAT
-    * Une interface en bridge avec les IP statiques suivantes
+    * Une interface en *private-network* avec les IP statiques suivantes
         * Pilote Ansible : 172.16.0.10/24
         * Pilote Docker_1 : 172.16.0.20/24
         * Pilote Docker_2 : 172.16.0.30/24
